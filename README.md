@@ -1,6 +1,6 @@
 #Getting started with docker-compose, using python/flask & redis
 
-There is a basic python flask web app in `app.py`, a Dockerfile for the specs of the container for that app, a requirements file for additional requirements for the app, and a docker-compose file for the specification of the composed containers which includes the redis dependency. 
+There is a basic python flask web app in `app.py`, a Dockerfile for the specs of the container for that app (which is based off a python image), a requirements file for Docker installation additional requirements for the app (flask, redis), and a docker-compose file for the specification of the composed containers which includes the flask and redis containers. 
 
 1. Create the files locally and look to see what each one does. 
 
