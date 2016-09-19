@@ -7,3 +7,5 @@ There is a basic python flask web app in `app.py`, a Dockerfile for the specs of
 1. Run `docker-compose build' to build the containers specified in the docker-compose file.
 
 1. Run `docker-compose up` to start the containers (add -d to run them in the background. Then run `docker-compose stop` when done.)  
+2. 
+1. Browse to http://localhost:5000 to see the response from the web app. 
